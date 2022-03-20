@@ -1339,7 +1339,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact {
     background-color: white;
-    padding: 60px 0;
+    padding: 50px;
 }
 
 #contact .contact-info {
@@ -1349,14 +1349,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .contact-info i {
     font-size: 48px;
-    display: inline-block;
     margin-bottom: 10px;
     color: #f82249;
 }
 
 #contact .contact-info address,
 #contact .contact-info p {
-    margin-bottom: 0;
     color: #112363;
 }
 
@@ -1379,7 +1377,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .contact-address,
 #contact .contact-phone,
 #contact .contact-email {
-    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 #contact .form #sendmessage {
@@ -1587,6 +1585,31 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-align: center;
     font-size: 13px;
     color: #ddd;
+}
+
+#letschallenge {
+    background: white;
+}
+
+.col-lg-12 {
+    float: left;
+    width: 50%;
+    padding: 0px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row {
+    display: flex;
+}
+
+.col-lg-12 {
+    flex: 50%;
+    padding: 0px;
 }
 
 
