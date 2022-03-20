@@ -676,6 +676,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 60px 0 40px 0;
 }
 
+@media (min-width: 1024px) {
+    #about {
+        background-attachment: fixed;
+    }
+}
+
 #about:before {
     content: "";
     background: rgba(13, 20, 41, 0.8);
@@ -705,6 +711,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 14px;
     margin-bottom: 20px;
     color: #fff;
+    text-align: justify;
+    font-family: "Open Sans", sans-serif;
 }
 
 
@@ -836,6 +844,24 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 10px 60px;
 }
 
+@media (max-width: 991px) {
+    #schedule .nav-tabs a {
+        padding: 8px 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    #schedule .nav-tabs a {
+        padding: 8px 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    #schedule .nav-tabs a {
+        padding: 8px 30px;
+    }
+}
+
 #schedule .nav-tabs a.active {
     background-color: #f82249;
     color: #fff;
@@ -910,6 +936,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #venue {
+    background: url("../img/venueback.jpg");
     padding: 60px 0;
 }
 
@@ -1311,6 +1338,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #contact {
+    background-color: white;
     padding: 60px 0;
 }
 
